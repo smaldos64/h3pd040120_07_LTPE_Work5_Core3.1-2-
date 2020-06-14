@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CityInfo.API_Core3_1_Servic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CityInfo_Core3_1_Data", "CityInfo_Core3_1_Data\CityInfo_Core3_1_Data.csproj", "{DEECE1EC-8BEF-4706-B985-461022775601}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityInfo_Core3_1_UnitTest", "CityInfo_Core3_1_UnitTest\CityInfo_Core3_1_UnitTest.csproj", "{1159F82D-C01F-486A-A3B2-1E2173D136D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityInfo_Core3_1_NUnit_Moq_UnitTest", "CityInfo_Core3_1_NUnit_Moq_UnitTest\CityInfo_Core3_1_NUnit_Moq_UnitTest.csproj", "{57ADCCBB-FB5A-420F-9E8B-522C061BBE15}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{DEECE1EC-8BEF-4706-B985-461022775601}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DEECE1EC-8BEF-4706-B985-461022775601}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DEECE1EC-8BEF-4706-B985-461022775601}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1159F82D-C01F-486A-A3B2-1E2173D136D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1159F82D-C01F-486A-A3B2-1E2173D136D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1159F82D-C01F-486A-A3B2-1E2173D136D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1159F82D-C01F-486A-A3B2-1E2173D136D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57ADCCBB-FB5A-420F-9E8B-522C061BBE15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57ADCCBB-FB5A-420F-9E8B-522C061BBE15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57ADCCBB-FB5A-420F-9E8B-522C061BBE15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57ADCCBB-FB5A-420F-9E8B-522C061BBE15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -48,6 +48,16 @@ namespace CityInfo.Api_Core3_1
             //    options.SerializerSettings.Formatting = Formatting.Indented;
             //});
 
+#if DEBUG
+            //services.AddTransient<LocalMailService>();
+            // LTPE Ovennævnte er ikke så godt, da vi så i vores controller
+            // er nødt til at lave Dependency Injection med en 
+            // konkret - specifik klasse. 
+            services.AddTransient<IMailService, LocalMailService>();
+#else
+            services.AddTransient<IMailService, CloudMailService>();
+#endif
+
             var connectionString = Configuration["connectionStrings:cityInfoDBConnectionString"];
             services.AddDbContext<CityInfoContext>(o =>
             {
